@@ -13,3 +13,7 @@ def about():
 @app.route('/ion')
 def callback():
     return 'Hello ion ...'
+	
+@app.route('/sharon')
+def hi():
+    return 'Hello, Sharon!'
